@@ -1,0 +1,46 @@
+body {
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  max-width: 80ch;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+h2, h3 {
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+header h1 {
+  margin-bottom: .2em;
+}
+
+p, ul, code {
+  margin-bottom: 1em;
+}
+
+p:has(+pre) {
+  margin-bottom: 2em;
+}
+
+pre + p {
+  margin-top: 2em;
+}
+
+nav.main {
+  margin-bottom: 2em;
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  li+li {
+    margin-left: 1em;
+  }
+}
