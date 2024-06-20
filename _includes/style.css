@@ -54,14 +54,16 @@ pre + p {
 .post_header {
   display: flex;
   align-items: center;
-  border-bottom: 4px solid gray;
+  border-bottom: 4px solid black;
   margin-bottom: 2em;
 
   h1 {
     font-size: 3rem;
     padding: .2em .5em;
     margin: 0;
-    border-right: 4px solid gray;
+    border-right: 4px solid black;
+    color: white;
+    background-color: black;
   }
 
   nav {
@@ -71,11 +73,15 @@ pre + p {
     ul {
       margin-bottom: 0;
       display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
       padding: 0;
     }
+
     li {
       margin: 0;
-      flex-grow: 1;
+      padding: 0 5%;
+      flex-basis: content;
       list-style: none;
       text-align: center;
     }
