@@ -2,16 +2,24 @@
 
 {% block header %}
   <header class="post_header">
-    <h1>rz</h1>
+    <div class="main_logo">rz</div>
     {% include 'main-nav.html' %}
   </header>
 {% endblock %}
 
 {% block body %}
+<main>
+  <h1 class="post_title">{{ title }}</h1>
 
-  <h1>{{ title }}</h1>
-
+  <section class="post_metadata">
+    <p>{{ date | postDate }}</p>
+    <ul>
+      {% for tag in (tags | postTags) %}
+      <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  </section>
   {{ content | safe }}
-
+</main>
 {% endblock %}
 
