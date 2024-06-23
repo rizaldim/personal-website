@@ -31,8 +31,6 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter("postDate", function(value) {
-    console.log(value);
-    console.log(typeof value);
     return dayjs(value).format('dddd, DD MMMM YYYY');;
   });
 
