@@ -1,5 +1,5 @@
 ---
-title: Prometheus's Metrics
+title: Prometheus' Metrics
 date: 2024-06-24
 tags:
   - prometheus
