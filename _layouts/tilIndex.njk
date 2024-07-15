@@ -1,0 +1,17 @@
+{% extends "./page.njk" %}
+
+{% block body %}
+
+  <h2>Today I learn</h2>
+  <ul>
+  {%- for item in collections.til | reverse -%}
+    <li>
+      <a href="{{ item.url }}">
+        {{ item.fileSlug }}
+      </a>
+    </li>
+  {%- endfor -%}
+  </ul>
+
+{% endblock %}
+
