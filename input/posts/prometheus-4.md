@@ -187,7 +187,7 @@ rate(namedprocess_namegroup_cpu_seconds_total{groupname="node"}[30s])
 So the `rate` function is essentially telling prometheus to calculate how much
 a counter metrics, like `namedprocess_namegroup_cpu_seconds_total`, changes
 over the interval, which in this case is 30 seconds (the number in the bracket).
-The basically what prometheus does is get the value of the metrics at the start
+Basically what prometheus does is get the value of the metrics at the start
 of the duration of the interval, let's call it value A, and then get the value
 30 seconds after that, let's call it value B, and then substract A from B and
 divide it by 30.
