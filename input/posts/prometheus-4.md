@@ -82,7 +82,8 @@ In [the process exporter's readme], the following information is mentioned.
 
 > cpu_seconds_total counter
 >
-> CPU usage based on /proc/[pid]/stat fields utime(14) and stime(15) i.e. user > and system time. This is similar to the node_exporter's node_cpu_seconds_total.
+> CPU usage based on /proc/[pid]/stat fields utime(14) and stime(15) i.e. user 
+> and system time. This is similar to the node_exporter's node_cpu_seconds_total.
 
 That last part. It means I can use this metric to the track the cpu usage of
 each process.

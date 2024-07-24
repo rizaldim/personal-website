@@ -1,9 +1,14 @@
 {% extends "./page.njk" %}
 
+{% block additionalCss %}
+  {% include 'posts-list.css' %}
+{% endblock %}
+
 {% block body %}
 
+<main>
   <h2>Posts (latest first)</h2>
-  <ul>
+  <ul class="posts-list">
   {%- for post in collections.post | reverse -%}
     <li>
       <a href="{{ post.url }}">
@@ -12,6 +17,7 @@
     </li>
   {%- endfor -%}
   </ul>
+</main>
 
 {% endblock %}
 
