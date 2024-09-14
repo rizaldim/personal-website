@@ -1,4 +1,5 @@
 {
-  "layout": "post.njk",
+  "layout": "layout.hbs",
+  "type": "post",
   "tags": "post"
 }

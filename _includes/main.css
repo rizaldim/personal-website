@@ -1,7 +1,0 @@
-main {
-  padding: 1rem;
-
-  p + p {
-    margin-top: 16px;
-  }
-}

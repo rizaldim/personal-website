@@ -1,4 +1,5 @@
 ---
-layout: page.njk
+layout: layout.hbs
+type: page
 title: Home
 ---
