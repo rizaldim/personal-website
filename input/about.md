@@ -1,5 +1,5 @@
 ---
-layout: layout.hbs
+layout: layout.njk
 type: page
 title: About
 ---

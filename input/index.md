@@ -1,5 +1,6 @@
 ---
-layout: layout.hbs
-type: page
+layout: layout.njk
+type: pageHome
 title: Home
 ---
+

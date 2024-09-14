@@ -1,0 +1,12 @@
+<main>
+
+  {% if type == "pageHome" %}
+    {% include "main_home.njk" %}
+  {% elif type == "post" %}
+    {% include "main_post.njk" %}
+  {% else %}
+    {{ content | safe }}
+  {% endif %}
+
+</main>
+

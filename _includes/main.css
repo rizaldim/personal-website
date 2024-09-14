@@ -1,0 +1,9 @@
+body {
+  max-width: 50em;
+  padding: 2em 1em;
+  margin: 0 auto;
+
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+}
+

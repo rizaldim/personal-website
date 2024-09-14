@@ -9,17 +9,15 @@
 
 	<title>{{ title }} - rizaldi.xyz</title>
 
-	<style>
-
-  {{> css }}
-
-	</style>
-
-	<link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" />
+	<style>{% include "style.njk" %}</style>
 
 </head>
 
 <body>
+
+  {% include "header.html" %}
+
+  {% include "main.njk" %}
 
 </body>
 
