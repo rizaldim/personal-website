@@ -1,13 +1,53 @@
 body {
-  max-width: 50em;
-  padding: 2em 1em;
-  margin: 0 auto;
-
+  margin: 0;
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.5;
+}
+
+main {
+  max-width: 80ch;
+  margin: 0 auto;
+  padding: 1em;
 }
 
 footer {
   border-top: 1px solid grey;
   margin-top: 2em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.site-head {
+
+  padding: 1em;
+  border: 1px solid grey;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  & .site-title {
+    font-size: 1.5em;
+    font-weight: 700;
+
+    flex-basis: 360px;
+    flex-grow: 1;
+  }
+
+  & nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+  }
+
+}
+
+article {
+  & header {
+    margin-bottom: 3em;
+  }
 }
