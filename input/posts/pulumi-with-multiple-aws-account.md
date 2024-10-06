@@ -1,6 +1,7 @@
 ---
 title: Using Pulumi with multiple AWS accounts and S3 backend
 date: 2023-12-24
+description: My setup to enable using multiple AWS accounts with Pulumi
 tags:
   - pulumi
 ---

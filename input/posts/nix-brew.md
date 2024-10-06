@@ -1,6 +1,8 @@
 ---
 title: Replacing brew with nix
 date: 2024-07-15
+description: |
+  Trying out nix and my experiment on using it to replace homebrew on MacOS
 tags:
   - nix
   - package-manager

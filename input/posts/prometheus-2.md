@@ -1,6 +1,7 @@
 ---
 title: Prometheus' Metrics
 date: 2024-06-24
+description: A bit about Prometheus' metrics
 tags:
   - prometheus
 ---

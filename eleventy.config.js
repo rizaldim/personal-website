@@ -2,6 +2,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const Image = require("@11ty/eleventy-img");
 const dayjs = require('dayjs');
 const customParseFormat = require("dayjs/plugin/customParseFormat");
+const { DateTime } = require("luxon");
 
 dayjs.extend(customParseFormat);
 
@@ -31,7 +32,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter("postDate", function(value) {
-    return dayjs(value).format('dddd, DD MMMM YYYY');;
+    return dayjs(value).format('YYYY-MM-DD');;
   });
 
   return {

@@ -1,6 +1,7 @@
 ---
 title: Prometheus - Getting started
 date: 2024-06-20
+description: Getting started on using Prometheus
 tags:
   - prometheus
 ---

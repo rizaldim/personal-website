@@ -1,6 +1,7 @@
 ---
 title: Monitor your own PC/laptop with Prometheus
 date: 2024-07-02
+description: Using prometheus to monitor resource on local machine
 tags:
   - prometheus
 ---
